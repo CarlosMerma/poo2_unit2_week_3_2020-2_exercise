@@ -16,6 +16,8 @@ Crea un template de clase que se denominará `utec::linked_list`, utilizando tem
 - `erase`, similar a `insert` utilizar posición para remover un item del linked list.
 - `first`, para retornar el primer nodo  
 - `last`, para retornar el ultimo nodo
+- `clase de nodo`, esta clase debera contar con un metodo que permita retornar un valor `value()` y un metodo que permita retornar el siguiente valor `next()`. 
+**NOTA**: Debera de tomarse en cuenta que debe implementarse la clase que represente los nodos de un linked_list.
 ## Rubrica  
 - Los siguientes items seran evaluados:  
 
@@ -29,4 +31,5 @@ Crea un template de clase que se denominará `utec::linked_list`, utilizando tem
     |`erase` |2 pts |1 pts |0 pts|
     |`first` |2 pts |1 pts |0 pts|
     |`last` |2 pts |1 pts |0 pts |
+    |`clase nodo` |2 pts |1 pts |0 pts |
     

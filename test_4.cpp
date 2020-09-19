@@ -10,7 +10,7 @@ TEST_CASE("Insert") {
     ll.insert(1, 300.6f);
     ll.insert(1, 200.2f);
 
-    auto current = ll.begin();
+    auto current = ll.first();
     REQUIRE(current->value() == 100.5f);
     current = current->next();
     REQUIRE(current->value() == 200.2f);

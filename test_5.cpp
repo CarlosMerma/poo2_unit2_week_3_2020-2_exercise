@@ -7,7 +7,7 @@
 TEST_CASE("Traverse") {
     utec::linked_list<char> ll('A', 'B', 'C', 'D');
 
-    auto current = ll.begin();
+    auto current = ll.first();
     REQUIRE(current->value() == 'A');
     current = current->next();
     REQUIRE(current->value() == 'B');
